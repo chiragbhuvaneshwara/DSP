@@ -8,7 +8,7 @@ def blockproc(img, b, fun):
     #print(out)
     for i in range(0,x,bx):
         for j in range(0,y,by):
-            print (img[i:i+bx, j:j+by])
+            #print (img[i:i+bx, j:j+by])
             out[i:i+bx, j:j+by] = fun(img[i:i+bx,j:j+by])
     
     return out
